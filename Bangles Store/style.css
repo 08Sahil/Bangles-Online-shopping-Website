@@ -1,0 +1,269 @@
+/*RESET */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+/* CSS Variables */
+:root {
+    --navbar-height:20px;
+}
+
+/* #navigation-bar */
+#navbar {
+    
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+
+}
+
+img:hover{
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+/* navigation-bar : logo and pic  */
+#logo {
+    margin: -7px 1px;
+
+}
+
+#logo img {
+    margin: 5px 50px;
+    height: 104px;
+}
+
+/* navigation-bar : list style  */
+#navbar ul {
+    display: flex;
+}
+
+#navbar {
+    position: sticky;
+}
+
+#navbar ::before {
+    content: "";
+    background-color: hsla(226, 85%, 45%, 0.583);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 23px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: rgb(158, 37, 37);
+    background-color: white;
+}
+
+/* Home section  */
+#home {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 690px;
+
+}
+
+#home::before {
+    content: "";
+
+    position: absolute;
+    background: url('Podcast-Website-Design-Background-Image-1024x553.jpg')no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Rubik Distressed', cursive; */
+
+}
+
+#home p {
+    color:black;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+/* Services section */
+#services {
+    /* background: url('for\ services.jpg'); */
+    display: flex;
+    margin: 34px;
+
+
+}
+
+#services .box {
+
+    border: 4px solid brown;
+    padding: 48px;
+    margin: -22px 25px;
+    border-radius: 15px;
+    background-color: #e4cbc0;
+}
+
+
+#services .box img {
+    height: 275px;
+    margin: auto;
+    display: block;
+
+}
+#about {
+    display: flex;
+    margin: 34px;
+
+
+}
+
+#about .box {
+
+    border: 4px solid brown;
+    padding: 48px;
+    margin: -22px 25px;
+    border-radius: 15px;
+    background-color: #e4cbc0;
+}
+
+
+#services .box img {
+    height: 275px;
+    margin: auto;
+    display: block;
+
+}
+
+/* #services .box p{
+    
+} */
+/* about us  */
+
+
+/* contact secction  */
+#contact {
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    position: relative;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('/9358500b4712ac9.jpg') no-repeat center center/cover;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+   background:url('/background\ imag\ for\ conatact.png');
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form {
+    width: 40%;
+
+}
+
+#contact-box label {
+    font-size: 1.3rem;
+
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+
+}
+
+.h-primary {
+    font-size: 3.8rem;
+    padding: 36px;
+}
+
+.h-primary {
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+
+/* Utility Classes */
+.h-primary {
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary {
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+    /* font-size: 1.3rem; */
+}
+
+.center2 {
+    text-align: center;
+    font-size: 1.3rem;
+}
